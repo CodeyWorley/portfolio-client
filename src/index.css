@@ -1,14 +1,216 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+  CSS resets
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+* {
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #DFDFDF;
+}
+ul,li {
+  list-style-type: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* General */
+.section-spacing {
+  padding: 4%;
 }
+.top-spacing {
+  margin-top: 2%;
+}
+.section-title {
+  margin: 2% 5%;
+  border-bottom: 1px solid #242424;
+}
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 7%;
+}
+.icon {
+  height: 32px;
+  width: 32px;
+}
+nav, footer {
+  background-color: #242424;
+  color: #DFDFDF;
+  text-align: center;
+  height: 44px;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+.header {
+  padding: 8% 7%;
+  color: #DFDFDF;
+  background: #242424;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-title {
+  font-size: 40px;
+}
+.header-link {
+  display: flex;
+  align-items: center;
+}
+.header-link:hover {
+  color: #99F744;
+  font-size: 22px;
+}
+.header-icon {
+  height: 48px;
+  width: 48px;
+}
+
+/* About */
+.about {
+  /* background-color: #F7F7F7; */
+  background-color: #ECECEC;
+  
+}
+.about-container {
+  margin-right: 7%;
+}
+
+/* Projects */
+.projects {
+  /* background-color: #BFBFBF; */
+  /* background-color: #DFDFDF; */
+  background-color: #F7F7F7;
+  /* background-color: #ECECEC; */
+}
+.projects-container {
+  flex-direction: column;
+  margin-right: 7%;
+}
+.project {
+  margin: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-header {
+  display: flex;
+  align-items: baseline;
+}
+.project-info {
+  flex: 2 0 0;
+  min-width: 280px;
+}
+.project-img {
+  max-width: 256px;
+  max-height: 256px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.project-title > a {
+  color: black;
+}
+.project-title > a:hover, .project-repos > a:hover {
+  color: #99F744;
+}
+.project-repos {
+  margin-left: 5%;
+}
+.project-repos > a {
+  color: gray;
+  margin: 0 5%;
+}
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tech {
+  margin: 2% 1%;
+  display: flex;
+  align-items: center;
+  width: 135px;
+}
+
+/* Skills */
+.skills {
+  /* background-color: #DFDFDF; */
+  /* background-color: #F7F7F7; */
+  background-color: #ECECEC;
+}
+.section-container > .skill {
+  width: 135px;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+.nav-container {
+  padding: 12px;
+}
+.nav-link {
+  margin: 0 3%;
+}
+.nav-link:hover {
+  color: #99F744;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #242424;
+  color: #DFDFDF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px;
+}
+.footer-link, .footer-item {
+  margin: 0 2%;
+}
+.footer-link:hover {
+  color: #99F744;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-container {
+    margin-left: 4%;
+  }
+  .section-title {
+    margin: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
