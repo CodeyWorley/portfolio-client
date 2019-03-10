@@ -1,5 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {getProjects} from '../utils/fetch-data';
+import helpful from '../helpfull-mock700x400.png';
+import emailpro from '../emailpro-mock700x400.png';
+import spanishx from '../spanishx-mock700x400.png';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -20,17 +23,30 @@ const Projects = () => {
             <h2 className='section-title'>Projects</h2>
             <div className='section-container projects-container'>
                 {projects.map( project => {
+                    // needs refactor
+                    let image;
+                    if(project.image === 'helpful') {
+                        image = helpful;
+                    }
+                    if(project.image === 'emailpro') {
+                        image = emailpro;
+                    }
+                    if(project.image === 'spanishx') {
+                        image = spanishx;
+                    }
                     return (
                         <div className='project'>
-                            <img className='project-img' src={project.image} alt={project.name}/>
+                            <a href={project.website} target='_blank' rel='noopener noreferrer'>
+                                <img className='project-img' src={image} alt={project.name}/>
+                            </a>
                             <div className='project-info'>
                                 <div className='project-header'>
                                     <h2 className='project-title'>
-                                        <a href={project.website}>{project.name}</a>
+                                        <a href={project.website} target='_blank' rel='noopener noreferrer'>{project.name}</a>
                                     </h2>
                                     <div className='project-repos'>
-                                        <a href={project.repos.client}>Client</a>/
-                                        <a href={project.repos.server}>Server</a>
+                                        <a href={project.repos.client} target='_blank' rel='noopener noreferrer'>Client</a>/
+                                        <a href={project.repos.server} target='_blank' rel='noopener noreferrer'>Server</a>
                                     </div>
                                 </div>
                                 <div className='project-stack'>

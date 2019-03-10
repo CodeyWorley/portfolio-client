@@ -127,8 +127,9 @@ nav, footer {
   min-width: 280px;
 }
 .project-img {
+  /* 270 xy */
   max-width: 256px;
-  max-height: 256px;
+  max-height: 180px;
   margin-right: 2%;
   margin-bottom: 2%;
 }
