@@ -1,5 +1,6 @@
 import React from 'react';
 import linkedin from '../linkedin.png';
+import emailIcon from '../email.png';
 
 export const Header = () => {
     return (
@@ -19,6 +20,12 @@ export const Header = () => {
                         <div className='header-link'>
                             <img className='header-icon' src='https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697061-github-64.png' alt='Github' />
                             Github
+                        </div>
+                    </a>
+                    <a href='mailto:codeyworley@gmail.com'>
+                        <div className='header-link'>
+                            <img className='header-icon' src={emailIcon} alt='codeyworley@gmail.com' />
+                            Email
                         </div>
                     </a>
                 </div>

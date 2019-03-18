@@ -10,7 +10,7 @@ const Footer = () => {
                 <a className='footer-link' href="#skills">Skills</a> | 
                 <a className='footer-link' href='https://github.com/codeyworley' target='_blank' rel='noopener noreferrer'>Github</a> | 
                 <a className='footer-link' href='https://www.linkedin.com/in/codey-worley/' target='_blank' rel='noopener noreferrer'>LinkedIn</a> | 
-                <p className='footer-item'>codeyworley@gmail.com</p>
+                <a className='footer-link' href={`mailto:codeyworley@gmail.com`}>codeyworley@gmail.com</a>
             </div>
         </footer>
     );
