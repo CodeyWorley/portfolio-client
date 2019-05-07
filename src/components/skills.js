@@ -1,20 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import {getSkills} from '../utils/fetch-data';
+import React from 'react';
+import {skills} from '../utils/data';
 
 const Skills = () => {
-    const [skills, setSkills] = useState([]);
-
-    const handleData = () => {
-        getSkills()
-            .then( res => {
-                setSkills(res.data)
-            });
-    }
-
-    useEffect( () => {
-        handleData();
-    }, [])
-
     return (
         <section id='skills' className='skills section-spacing'>
             <h2 className='section-title'>Skills</h2>

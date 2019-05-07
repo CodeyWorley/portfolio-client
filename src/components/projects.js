@@ -1,23 +1,10 @@
-import React, {useState, useEffect} from 'react';
-import {getProjects} from '../utils/fetch-data';
-import helpful from '../helpfull-mock700x400.png';
-import emailpro from '../emailpro-mock700x400.png';
-import spanishx from '../spanishx-mock700x400.png';
+import React from 'react';
+import {projects} from '../utils/data';
+import helpful from '../media/helpfull-mock700x400.png';
+import emailpro from '../media/emailpro-mock700x400.png';
+import spanishx from '../media/spanishx-mock700x400.png';
 
 const Projects = () => {
-    const [projects, setProjects] = useState([]);
-
-    const handleData = () => {
-        getProjects()
-            .then( res => {
-                setProjects(res.data)
-            });
-    }
-
-    useEffect( () => {
-        handleData();
-    }, [])
-
     return (
         <section id='projects' className='projects section-spacing'>
             <h2 className='section-title'>Projects</h2>

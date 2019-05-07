@@ -6,12 +6,12 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Footer from './components/footer';
 
-class App extends React.Component {
+export class App extends React.Component {
   render() {
     return (
       <div className='portfolio'>
-        <Nav />
         <Header />
+        <Nav />
         <About />
         <Projects />
         <Skills />
