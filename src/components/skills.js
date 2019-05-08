@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <section id='skills' className='skills section-spacing'>
             <h2 className='section-title'>Skills</h2>
-            <div className='section-container'>
+            <div className='skills-container'>
                 {skills.map( skill => {
                     return (
                         <div className='skill'>

@@ -7,43 +7,71 @@ export const about = {
 // JavaScript, Node, React, Angular, C#, .NET, Java, PHP, Laravel, Ruby, Rails, Python, HTML, CSS, SQL, NoSQL
 // skills
 export const skills = [
-    {
-      name: 'JavaScript',
-      icon: 'https://img.icons8.com/color/48/000000/javascript.png'
-    },
-    {name: 'MongoDB',
-    icon: 'https://img.icons8.com/color/48/000000/mongodb.png'},
-    {name: 'Express',
-    icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'},
-    {name: 'React',
-    icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png'},
-    {name: 'Node',
-    icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'},
-    {name: 'HTML',
-    icon: 'https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-256.png'},
-    {name: 'CSS',
-    icon: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png'},
-    {name: 'Heroku',
-    icon: 'https://img.icons8.com/color/48/000000/heroku.png'},
-    {name: 'Python',
-    icon: 'https://img.icons8.com/color/48/000000/python.png'},
-    {name: 'Java',
-    icon: 'https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Java.png'},
-    {name: 'PHP',
-    icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-512.png'},
-    {name: 'Ruby',
-    icon: 'https://cdn3.iconfinder.com/data/icons/fatcow/32x32_0760/ruby.png'},
-    {name: 'SQL',
-    icon: 'https://cdn1.iconfinder.com/data/icons/hawcons/32/700048-icon-89-document-file-sql-32.png'},
-    {name: 'Git',
-    icon: 'https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697061-github-64.png'},
-    {name: 'Chai',
-    icon: 'https://www.chaijs.com/img/chai-logo-small.png'},
-    {name: 'Enzyme',
-    icon: 'https://cdn-images-1.medium.com/max/1000/1*pu9U8EYL3KGrgvapyp1pSg.png'},
-    {name: 'Travis CI',
-    icon: 'https://d29fhpw069ctt2.cloudfront.net/icon/image/38708/preview.svg'},
-  ];
+  {
+    name: 'JavaScript',
+    icon: 'https://img.icons8.com/color/48/000000/javascript.png'
+  },
+  {
+    name: 'React',
+    icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png'
+  },
+  {
+    name: 'Angular',
+    icon: 'https://cdn3.iconfinder.com/data/icons/logos-3/250/angular-128.png'
+  },
+  {
+    name: 'C#',
+    icon: 'https://cdn3.iconfinder.com/data/icons/sphericalcons/128/file_c.png'
+  },
+  {
+    name: '.NET',
+    icon: 'https://cdn0.iconfinder.com/data/icons/e-learning-coding-tutorial-badge-icons/96/Coding_Icons_-_LINE-11-128.png'
+  },
+  {
+    name: 'Java',
+    icon: 'https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Java.png'
+  },
+  {
+    name: 'PHP',
+    icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-512.png'
+  },
+  {
+    name: 'Ruby',
+    icon: 'https://cdn3.iconfinder.com/data/icons/fatcow/32x32_0760/ruby.png'
+  },
+  {
+    name: 'Python',
+    icon: 'https://img.icons8.com/color/48/000000/python.png'
+  },
+  {
+    name: 'HTML',
+    icon: 'https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-256.png'
+  },
+  {
+    name: 'CSS',
+    icon: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png'
+  },
+  {
+    name: 'SQL',
+    icon: 'https://cdn1.iconfinder.com/data/icons/hawcons/32/700048-icon-89-document-file-sql-32.png'
+  },
+  {
+    name: 'NoSQL',
+    icon: 'https://img.icons8.com/color/48/000000/mongodb.png'
+  },
+  {
+    name: 'Laravel',
+    icon: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-128.png'
+  },
+  {
+    name: 'Node',
+    icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
+  },
+  {
+    name: 'Visual Studio',
+    icon: 'https://img.icons8.com/color/2x/visual-studio.png'
+  }
+];
   
   // projects
   export const projects = [

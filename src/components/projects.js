@@ -46,8 +46,8 @@ const Projects = () => {
                                         )
                                     })}
                                 </div>
-                                <div className='project-description'>{project.description}</div>
                             </div>
+                            <div className='project-description'>{project.description}</div>
                         </div>
                     )
                 })}
