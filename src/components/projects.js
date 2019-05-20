@@ -1,8 +1,8 @@
 import React from 'react';
 import {projects} from '../utils/data';
 import helpful from '../media/helpfull-mock700x400.png';
-import emailpro from '../media/emailpro-mock700x400.png';
 import spanishx from '../media/spanishx-mock700x400.png';
+import blank from '../media/blank-mock700x400.png';
 
 const Projects = () => {
     return (
@@ -12,14 +12,20 @@ const Projects = () => {
                 {projects.map( project => {
                     // needs refactor
                     let image;
+                    if(project.image === 'blank') {
+                        image = blank;
+                    }
                     if(project.image === 'helpful') {
                         image = helpful;
                     }
-                    if(project.image === 'emailpro') {
-                        image = emailpro;
-                    }
                     if(project.image === 'spanishx') {
                         image = spanishx;
+                    }
+                    if(project.image === 'itech') {
+                        // image = itech;
+                    }
+                    if(project.image === 'swws') {
+                        // image = swws;
                     }
                     return (
                         <div className='project'>

@@ -8,9 +8,9 @@ export const Header = () => {
         <header className='header section-spacing'>
             <h1 className='header-title'>Codey Worley</h1>
             <div className='header-container'>
-                <div className='header-sub-title'>Full-Stack Developer & Software Engineer</div>
+                <div className='header-sub-title'>Full Stack Developer & Software Engineer</div>
                 <div className='header-links top-spacing'>
-                    <a href='https://drive.google.com/file/d/1-4dEVj5MVENnUV1zh_Zio0xYVX1qncm1/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://drive.google.com/file/d/1_0xnx1e7lMDi8r4NVw72w8EkS-0xUXXv/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                         <div className='header-link'>
                             <img className='header-icon' src={googleIcon} alt='Google Drive' />
                             Resume
@@ -26,7 +26,7 @@ export const Header = () => {
                     <a href='https://github.com/codeyworley' target='_blank' rel='noopener noreferrer'>
                         <div className='header-link'>
                             <img className='header-icon' src='https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697061-github-64.png' alt='Github' />
-                            Github
+                            GitHub
                         </div>
                     </a>
                     <a href='mailto:codeyworley@gmail.com'>

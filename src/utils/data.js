@@ -1,10 +1,17 @@
 // about
 export const about = {
-    intro: "Hi, my name is Codey and I'm a full stack JS developer and software engineer located in Phoenix Arizona. I specialize in the MERN stack and my previous experience includes building web apps with PHP, Ruby, Java, and Python.",
-    closing: "When I'm not programming I like to create things with my hands like tesla coils and magnetic levitrons. I also enjoy difficult video games and going to breweries with my friends. My 5 year plan is to become a senior developer with many profitable side projects going on the side. I look forward to joining an awesome team in which I can have fun and grow as a developer!"
+  intro: "Hi, my name is Codey and I'm a Full Stack Developer and Software Engineer located in Phoenix, Arizona. My curiosity in tech has allowed me to learn many different languages and frameworks. However I am currently looking to find a role on a team which will allow me to specialize in one specific stack on my journey to becoming a senior developer.",
+
+  thinkful: "I have recently graduated from Thinkful's Engineering Immersion Program where I thoroughly learned the MERN stack (MongoDB, Express, Node, React). Working with a remote team of developers I gained first hand experience with Agile methodologies and version control in a mock professional setting.",
+  
+  flh: "Before that I was hired on with an Amazon Prime seller to create a sales platform in PHP and Laravel. The app enabled the sales department to upload and manage products in both Amazon and Walmart in one easy-to-use location. I worked as the primary developer to create and ship a mobile-friendly product in under a year which proved to be an invaluable resource for them, reducing time spent on product management by 50% and also opening up a new market to the company.",
+  
+  contract: "Over the years I have also created and extended small websites for local businesses and family friends using PHP, WordPress, and vanilla HTML/CSS. One of them being southwestwaterservice.com which was created in PHP and launched in 2017 when I was still pretty new to web development. However I am currently in the process of doing a complete rework of the website in React and including an employee portal for customer management which will replace their legacy CRM.",
+
+  closing: "When I'm not programming I like to create things with my hands like tesla coils, magnetic levitrons, and home improvement projects. I also enjoy difficult video games (Classic WoW hype) and going to breweries with my friends. My 5 year plan is to become a senior developer with many interesting side projects going on the side. I look forward to joining an awesome team in which I can meet cool new people and grow as a developer!"
+
 }
 
-// JavaScript, Node, React, Angular, C#, .NET, Java, PHP, Laravel, Ruby, Rails, Python, HTML, CSS, SQL, NoSQL
 // skills
 export const skills = [
   {
@@ -75,8 +82,62 @@ export const skills = [
   
   // projects
   export const projects = [
+    // {
+    //   name: 'Cathi\'s Cooking (Ongoing)',
+    //   repos: {
+    //     client: '#',
+    //     server: '#'
+    //   },
+    //   website: '#',
+    //   stack: [
+    //     {
+    //       name: 'Angular',
+    //       icon: 'https://cdn3.iconfinder.com/data/icons/logos-3/250/angular-128.png'
+    //     },
+    //     {
+    //       name: 'C#',
+    //       icon: 'https://cdn3.iconfinder.com/data/icons/sphericalcons/128/file_c.png'
+    //     },
+    //     {
+    //       name: '.NET',
+    //       icon: 'https://cdn0.iconfinder.com/data/icons/e-learning-coding-tutorial-badge-icons/96/Coding_Icons_-_LINE-11-128.png'
+    //     },
+    //   ],
+    //   description: "My mother loves cooking and sharing here recipes and techniques. So while I work on my skills with C# and .NET I am making here a blog-like app that will allow here to share all her tasty creations with the option to connect with social media platforms.",
+    //   image: 'blank'
+    // },
+
     {
-      name: 'Helpfull',
+      name: 'Southwest Water Service (Ongoing)',
+      repos: {
+        client: 'https://github.com/CodeyWorley/southwest-water-service-client',
+        server: 'https://github.com/CodeyWorley/southwest-water-service-server'
+      },
+      website: '#',
+      stack: [
+        {
+          name: 'MongoDB',
+          icon: 'https://img.icons8.com/color/48/000000/mongodb.png'
+        },
+        {
+          name: 'Express',
+          icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
+        },
+        {
+          name: 'React',
+          icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png'
+        },
+        {
+          name: 'Node',
+          icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
+        },
+      ],
+      description: "I am remaking a website for a company I contracted with back in 2017 when I was still fairly new to programming. This new site will also include an employee portal to replace the companies legacy CRM, allowing technicians to access and manage customer data on site without the need to rely on the office manager. Eliminating this current bottle neck by adding some much needed bandwidth will increase employee workflow efficiency ten fold.",
+      image: 'blank'
+    },
+
+    {
+      name: 'Helpfull (2019)',
       repos: {
         client: 'https://github.com/thinkful-ei26/Helpful-Client',
         server: 'https://github.com/thinkful-ei26/Helpful-Server'
@@ -105,7 +166,7 @@ export const skills = [
     },
   
     {
-      name: 'SpanishX',
+      name: 'SpanishX (2019)',
       repos: {
         client: 'https://github.com/thinkful-ei26/spaced-repetition-client-codey-ethan',
         server: 'https://github.com/thinkful-ei26/spaced-repetition-server-codey-ethan'
@@ -132,34 +193,47 @@ export const skills = [
       description: "I worked remote with another developer to create a language learning web app for my group project at Thinkful. We created the app with the MERN stack, using Agile Scrum methodologies to complete the MVP and demo within two weeks. I worked mainly on the backend creating the API while my partner worked on the client. Though the majority of our time was spent learning and creating a spaced repetition algorithm.",
       image: 'spanishx'
     },
+
+    // {
+    //   name: 'Buyer Buddy (2018)',
+    //   repos: {
+    //     client: 'https://github.com/CodeyWorley/',
+    //     server: 'https://github.com/CodeyWorley/'
+    //   },
+    //   website: 'http://itech-demo.herokuapp.com',
+    //   stack: [
+    //     {
+    //       name: 'Java',
+    //       icon: 'https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Java.png'
+    //     },
+    //   ],
+    //   description: "itech description",
+    //   image: 'blank'
+    // },
   
-    {
-      name: 'EmailPro',
-      repos: {
-        client: 'https://github.com/CodeyWorley/email-pro-client',
-        server: 'https://github.com/CodeyWorley/email-pro-server'
-      },
-      website: 'https://emailpro-client.herokuapp.com',
-      stack: [
-        {
-          name: 'MongoDB',
-          icon: 'https://img.icons8.com/color/48/000000/mongodb.png'
-        },
-        {
-          name: 'Express',
-          icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
-        },
-        {
-          name: 'React',
-          icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png'
-        },
-        {
-          name: 'Node',
-          icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
-        },
-      ],
-      description: "I worked solo to create a mass email sending app for my React project at Thinkful. I created the app with the MERN stack, using Agile Scrum methodologies to complete the MVP and demo within a week. The app makes use of Mailgun to create and send the emails to all recipients on the users list of addresses.",
-      image: 'emailpro'
-    },
+    // {
+    //   name: 'Southwest Water Service (2017)',
+    //   repos: {
+    //     client: 'https://github.com/CodeyWorley/',
+    //     server: 'https://github.com/CodeyWorley/'
+    //   },
+    //   website: 'https://southwestwaterservice.com',
+    //   stack: [
+    //     {
+    //       name: 'PHP',
+    //       icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-512.png'
+    //     },
+    //     {
+    //       name: 'HTML',
+    //       icon: 'https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-256.png'
+    //     },
+    //     {
+    //       name: 'CSS',
+    //       icon: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png'
+    //     }
+    //   ],
+    //   description: "SWWS description",
+    //   image: 'swws'
+    // },
   ];
   

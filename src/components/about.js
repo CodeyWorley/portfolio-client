@@ -9,6 +9,15 @@ const About = () => {
                 {about.intro}
                 <br/>
                 <br/>
+                {about.thinkful}
+                <br/>
+                <br/>
+                {about.flh}
+                <br/>
+                <br/>
+                {about.contract}
+                <br/>
+                <br/>
                 {about.closing}
             </div>
         </section>
