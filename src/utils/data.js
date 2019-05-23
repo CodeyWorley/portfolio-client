@@ -211,33 +211,29 @@ export const skills = [
           icon: 'https://img.icons8.com/color/48/000000/mongodb.png'
         },
       ],
-      description: "Working with an Amazon Prime affiliate, I created a back end that makes requests to Amazon MWS API and filters out all the important data to be sent to a NoSQL database. The data can then be used for inventory management by tracking sales and product locations with only the most relevant data being used, making for a more user friendly experience. The MVP is currently complete, however I would like to implement a front end for user login as well as a tool for emailing vendors when a seller is in need of an inventory shipment.",
+      description: "Working with an Amazon Prime affiliate, I created a back end that makes requests to Amazon MWS API and filters out all the important data to be sent to a NoSQL database. The data can then be used for inventory management by tracking sales and product locations with only the most relevant data being used, making for a more user friendly experience. The MVP is currently complete, however I would like to implement a front end for user login as well as a tool for making inventory orders.",
       image: 'blank'
     },
   
-    // {
-    //   name: 'Southwest Water Service (2017)',
-    //   repos: {
-    //     client: 'https://github.com/CodeyWorley/',
-    //     server: 'https://github.com/CodeyWorley/'
-    //   },
-    //   website: 'https://southwestwaterservice.com',
-    //   stack: [
-    //     {
-    //       name: 'PHP',
-    //       icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-512.png'
-    //     },
-    //     {
-    //       name: 'HTML',
-    //       icon: 'https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-256.png'
-    //     },
-    //     {
-    //       name: 'CSS',
-    //       icon: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png'
-    //     }
-    //   ],
-    //   description: "SWWS description",
-    //   image: 'swws'
-    // },
+    {
+      name: 'iTech (2017)',
+      repos: {
+        client: 'https://github.com/CodeyWorley/iTech',
+        server: 'https://github.com/CodeyWorley/iTech'
+      },
+      website: 'http://itechadvanced.com/',
+      stack: [
+        {
+          name: 'PHP',
+          icon: 'https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-512.png'
+        },
+        {
+          name: 'Laravel',
+          icon: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-128.png'
+        },
+      ],
+      description: "I created this website for my IT company back in 2017 when I was still fairly new to programming. I would like to revisit this project some day and give it a database and portal for managing products/services.",
+      image: 'blank'
+    },
   ];
   
