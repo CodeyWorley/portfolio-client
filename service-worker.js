@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CodeyWorley/portfolio-client.git/precache-manifest.1bf64f9c66a2ab6b50bb458d1e7f4018.js"
+  "/portfolio-client/precache-manifest.7bd23ea2574a7f36d5b20e142fbcd967.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/CodeyWorley/portfolio-client.git/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio-client/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
