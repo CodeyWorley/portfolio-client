@@ -190,26 +190,30 @@ export const skills = [
           icon: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png'
         },
       ],
-      description: "I worked remote with another developer to create a language learning web app for my group project at Thinkful. We created the app with the MERN stack, using Agile Scrum methodologies to complete the MVP and demo within two weeks. I worked mainly on the backend creating the API while my partner worked on the client. Though the majority of our time was spent learning and creating a spaced repetition algorithm.",
+      description: "I worked remote with another developer to create a language learning web app for my group project at Thinkful. We created the app with the MERN stack, using Agile Scrum methodologies to complete the MVP and demo within two weeks. I worked mainly on the back end creating the API while my partner worked on the client. Though the majority of our time was spent learning and creating a spaced repetition algorithm.",
       image: 'spanishx'
     },
 
-    // {
-    //   name: 'Buyer Buddy (2018)',
-    //   repos: {
-    //     client: 'https://github.com/CodeyWorley/',
-    //     server: 'https://github.com/CodeyWorley/'
-    //   },
-    //   website: 'http://itech-demo.herokuapp.com',
-    //   stack: [
-    //     {
-    //       name: 'Java',
-    //       icon: 'https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Java.png'
-    //     },
-    //   ],
-    //   description: "itech description",
-    //   image: 'blank'
-    // },
+    {
+      name: 'Buyer Buddy (2018)',
+      repos: {
+        client: 'https://github.com/CodeyWorley/Buyer-Buddy-Server',
+        server: 'https://github.com/CodeyWorley/Buyer-Buddy-Server'
+      },
+      website: 'https://github.com/CodeyWorley/Buyer-Buddy-Server',
+      stack: [
+        {
+          name: 'Java',
+          icon: 'https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Java.png'
+        },
+        {
+          name: 'MongoDB',
+          icon: 'https://img.icons8.com/color/48/000000/mongodb.png'
+        },
+      ],
+      description: "Working with an Amazon Prime affiliate, I created a back end that makes requests to Amazon MWS API and filters out all the important data to be sent to a NoSQL database. The data can then be used for inventory management by tracking sales and product locations with only the most relevant data being used, making for a more user friendly experience. The MVP is currently complete, however I would like to implement a front end for user login as well as a tool for emailing vendors when a seller is in need of an inventory shipment.",
+      image: 'blank'
+    },
   
     // {
     //   name: 'Southwest Water Service (2017)',
