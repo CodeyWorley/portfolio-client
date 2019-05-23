@@ -2,6 +2,7 @@ import React from 'react';
 import {about} from '../utils/data';
 
 const About = () => {
+    console.log('fired')
     return (
         <section id='about' className='about section-spacing'>
             <h2 className='section-title'>About</h2>
