@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codeyworley.github.io/portfolio-client",
+  "homepage": "https://codeyworley.github.io/portfolio",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
