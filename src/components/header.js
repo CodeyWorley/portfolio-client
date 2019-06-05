@@ -10,7 +10,7 @@ export const Header = () => {
             <div className='header-container'>
                 <div className='header-sub-title'>Full Stack Developer & Software Engineer</div>
                 <div className='header-links top-spacing'>
-                    <a href='https://drive.google.com/file/d/18Dj6bxQlnuDyJNaEFV4hKcPEjH3eGByw/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://drive.google.com/file/d/1Kjx1AvqlBPCRk2xoDemLcQxMTeb5lW08/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                         <div className='header-link'>
                             <img className='header-icon' src={googleIcon} alt='Google Drive' />
                             Resume
